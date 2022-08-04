@@ -6,5 +6,8 @@
   "item.pseudo.mesh_gearbox": "Mesh Gearbox",
   "item.pseudo.mesh_hardening": "Mesh Hardening",
 
+  "block.pseudo.graphite_block": "Graphite Block",
+  "block.pseudo.mesh_block": "Mesh Block",
+
   "itemGroup.pseudotab": "Pseudo"
 }

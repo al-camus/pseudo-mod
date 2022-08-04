@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import qa.luffy.pseudo.block.PseudoBlocks;
 import qa.luffy.pseudo.item.PseudoItems;
 
 @Mod(Pseudo.MODID)
@@ -19,6 +20,8 @@ public class Pseudo {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         PseudoItems.register(modEventBus);
+
+        PseudoBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
