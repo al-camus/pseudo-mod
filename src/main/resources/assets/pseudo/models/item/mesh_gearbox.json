@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures": 
     {
-        "layer0": "pseudo:item/gearbox"
+        "layer0": "pseudo:item/mesh_gearbox"
     }
 }

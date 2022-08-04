@@ -10,7 +10,7 @@ import qa.luffy.pseudo.Pseudo;
 import qa.luffy.pseudo.PseudoCreativeTab;
 
 public class PseudoItems {
-    private static final DeferredRegister<Item> ITEMS =
+    public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Pseudo.MODID);
 
     public static final RegistryObject<Item> GRAPHITE = ITEMS.register("graphite", () -> new Item(new Item.Properties().tab(PseudoCreativeTab.PSEUDO_TAB)));

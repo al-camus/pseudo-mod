@@ -1,0 +1,6 @@
+{
+    "variants": 
+    {
+        "": { "model": "pseudo:block/mesh_block" }
+    }
+}

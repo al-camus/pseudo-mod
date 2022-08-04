@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"IM",
+		"MI"
+	],
+	
+	"key":
+	{
+		"M": { "item": "pseudo:graphene_mesh" },
+		"I": { "item": "pseudo:iron_gear" }
+	},
+	
+	"result": { "item": "pseudo:gearbox" }
+}
