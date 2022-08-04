@@ -1,3 +1,10 @@
 {
-  "item.pseudo.graphite": "Graphite"
+  "item.pseudo.graphite": "Graphite",
+  "item.pseudo.graphene_sheet": "Graphene Sheet",
+  "item.pseudo.graphene_mesh": "Graphene Mesh",
+  "item.pseudo.iron_gear": "Iron Gear",
+  "item.pseudo.mesh_gearbox": "Mesh Gearbox",
+  "item.pseudo.mesh_hardening": "Mesh Hardening",
+
+  "itemGroup.pseudotab": "Pseudo"
 }

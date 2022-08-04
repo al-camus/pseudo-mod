@@ -8,14 +8,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.slf4j.Logger;
 import qa.luffy.pseudo.item.PseudoItems;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(Pseudo.MODID)
 public class Pseudo {
     public static final String MODID = "pseudo";
-    private static final Logger LOGGER = LogUtils.getLogger();
 
     public Pseudo()
     {
@@ -33,7 +30,6 @@ public class Pseudo {
     }
 
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents
     {
