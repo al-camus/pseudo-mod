@@ -8,12 +8,15 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import qa.luffy.pseudo.block.PseudoBlocks;
 import qa.luffy.pseudo.item.PseudoItems;
 
 @Mod(Pseudo.MODID)
 public class Pseudo {
     public static final String MODID = "pseudo";
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public Pseudo()
     {

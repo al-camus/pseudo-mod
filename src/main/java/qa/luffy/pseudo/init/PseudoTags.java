@@ -1,4 +1,4 @@
-package qa.luffy.init;
+package qa.luffy.pseudo.init;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
