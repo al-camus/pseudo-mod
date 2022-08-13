@@ -8,9 +8,20 @@
   "item.pseudo.mole_mitts": "Mole Mitts",
   "item.pseudo.mesh_mitts": "Mesh Mitts",
   "item.pseudo.mesh_scythe": "Mesh Scythe",
-
+  "item.pseudo.cursed_sword": "Kitetsu III",
+  "item.pseudo.wind_knots": "Wind Knots",
   "block.pseudo.graphite_block": "Graphite Block",
   "block.pseudo.mesh_block": "Mesh Block",
 
+  "tooltip.pseudo.hold_shift_for_info": "Hold §e§oSHIFT §r§7for info",
+  "tooltip.pseudo.uses_left": "%s Uses Left",
+  "tooltip.pseudo.one_use_left": "1 Use Left",
+  "tooltip.pseudo.unlimited_uses": "Unlimited Uses",
+  "tooltip.pseudo.hold_ctrl_for_tags": "Hold CTRL to see tags",
+  "tooltip.pseudo.hold_alt_for_nbt": "Hold ALT to see NBT",
+  "tooltip.pseudo.failed_to_load_nbt": "Failed to load NBT",
+  "tooltip.pseudo.block_tags": "Block Tags:",
+  "tooltip.pseudo.item_tags": "Item Tags:",
+  "tooltip.pseudo.not_yet_implemented": "Not Yet Implemented",
   "itemGroup.pseudotab": "Pseudo"
 }

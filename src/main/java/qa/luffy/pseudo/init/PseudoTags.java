@@ -13,6 +13,8 @@ public class PseudoTags {
     public static class Blocks {
         public static final TagKey<Block> MITTS_MINEABLE =
                 tag("mineable/mitts");
+        public static final TagKey<Block> SCYTHE_MINEABLE =
+                tag("mineable/scythe");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(Pseudo.MODID, name));
